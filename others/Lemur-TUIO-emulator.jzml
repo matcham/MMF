@@ -1,0 +1,43 @@
+<JZML>
+<PROJECT version="2000" osc_target="0" midi_target="-1" kbmouse_target="-1"/>
+<WINDOW class="JAZZINTERFACE" text="Default" x="0" y="0" width="800" height="600" state="1" group="0" font="tahoma,11,0" >
+<WINDOW class="Multiball" text="TUIO_emulator" x="0" y="0" width="800" height="600" id="12" state="1" group="0" font="tahoma,10,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" nbr="10" grid="0" grid_steps="1,1" label="1" ephemere="1" zoom="1.000000" color="5591105" cursor="0" physic="1" capture="1" polyphony="0">
+<PARAM name="x=" value="0.856784,0.731156,0.625628,0.613065,0.597990,0.000000,0.000000,0.000000,0.000000,0.000000" send="20" osc_target="-2" osc_trigger="1" osc_message="/TUIO_emulator/x" midi_target="-2" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" osc_scale="0.000000,80.000000" kbmouse_target="-2" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<PARAM name="y=" value="0.290268,0.486577,0.436242,0.315436,0.174497,0.000000,0.000000,0.000000,0.000000,0.000000" send="20" osc_target="-2" osc_trigger="1" osc_message="/TUIO_emulator/y" midi_target="-2" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" osc_scale="0.000000,60.000000" kbmouse_target="-2" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<PARAM name="z=" value="0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000" send="16" osc_target="-2" osc_trigger="1" osc_message="/TUIO_emulator/z" midi_target="-2" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" osc_scale="0.000000,1.000000" kbmouse_target="-2" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="attraction=1" send="0" osc_target="-2" osc_trigger="1" osc_message="/TUIO_emulator/attraction" midi_target="-2" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-2" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="friction=0.1" send="0" osc_target="-2" osc_trigger="1" osc_message="/TUIO_emulator/friction" midi_target="-2" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-2" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="speed=1" send="0" osc_target="-2" osc_trigger="1" osc_message="/TUIO_emulator/speed" midi_target="-2" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-2" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="attack=0" send="0" osc_target="-2" osc_trigger="1" osc_message="/TUIO_emulator/attack" midi_target="-2" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-2" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="decay=0" send="0" osc_target="-2" osc_trigger="1" osc_message="/TUIO_emulator/decay" midi_target="-2" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-2" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="sustain=1" send="0" osc_target="-2" osc_trigger="1" osc_message="/TUIO_emulator/sustain" midi_target="-2" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-2" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="release=0" send="0" osc_target="-2" osc_trigger="1" osc_message="/TUIO_emulator/release" midi_target="-2" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-2" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="hold=0" send="0" osc_target="-2" osc_trigger="1" osc_message="/TUIO_emulator/hold" midi_target="-2" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-2" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="holdX=0" send="0" osc_target="-2" osc_trigger="1" osc_message="/TUIO_emulator/holdX" midi_target="-2" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-2" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="holdY=0" send="0" osc_target="-2" osc_trigger="1" osc_message="/TUIO_emulator/holdY" midi_target="-2" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-2" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="oldz=0" send="0" osc_target="-2" osc_trigger="1" osc_message="/TUIO_emulator/oldz" midi_target="-2" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-2" kbmouse_trigger="1" kbmouse_message="24425,24948,26482" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="unique_id={0, 1000000, 2000000, 3000000, 4000000, 5000000, 6000000, 7000000, 8000000, 9000000}" send="0" osc_target="-2" osc_trigger="1" osc_message="/TUIO_emulator/unique_id" midi_target="-2" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-2" kbmouse_trigger="1" kbmouse_message="26989,26980,29791" kbmouse_scale="0,1,0,1"/>
+<SCRIPT name="grab()" script="decl i = 0;
+// decl scaled_x = floor(range(x, 0, 1280));
+decl scaled_y = y*-1+1;
+
+while (i<10)
+{
+if (z[i]-oldz[i]==1)
+{
+	unique_id[i] ++;
+	oscout(0,'addCursor',{unique_id[i], x[i], scaled_y[i]});
+	oscout(0,'downCursor',{unique_id[i], x[i], scaled_y[i]});
+	}
+else if (z[i]-oldz[i]==-1) 
+	{
+	oscout(0,'upCursor',{unique_id[i], x[i], scaled_y[i]});
+	oscout(0,'removeCursor',{unique_id[i], x[i], scaled_y[i]});
+	}
+else if (z[i]+oldz[i]==2) oscout(0,'updateCursor',{unique_id[i], x[i], scaled_y[i]});
+i++;
+}
+oldz=z;" trigger_script="time" trigger_type="1" trigger="1" osc_message="/TUIO_emulator/grab" midi_message="0x90,0x90,0,0" midi_target="-2" flag="1"/>
+</WINDOW>
+</WINDOW>
+</JZML>
